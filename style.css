@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 h1 {
@@ -19,6 +20,7 @@ h1 {
     background-color: black;
     padding: 2%;
     border-radius: 50px;
+    width: 1200px;
 
 }
 
@@ -29,10 +31,11 @@ h1 {
 }
 
 .second-step {
-    width: 50%;
+    width: 100%;
     padding-top: 10%;
-    padding-left: 5%;
+    height: 370px;
     font-weight: 700;
+    margin: 30px auto-5px auto;
 
 }
 
@@ -43,14 +46,30 @@ h1 {
     border-radius: 10px;
     margin-top: 25px;
     margin-left: 30px;
+
+}
+
+.link-button:hover {
+    border: 2px solid #111;
+    box-shadow: 0px 0px 26px 8px hsla(323, 87%, 50%, 0.664);
+    background-color: #000428;
+}
+
+.second-part {
+    display: flex;
+
+
 }
 
 #container {
-    width: 20%;
-    background-color: black;
-    padding: 10px 40px;
+    text-decoration: none;
+    height: 252px;
+    width: 252px;
+    margin-left: 10px;
+    margin-right: 4px;
     border-radius: 10px;
-    margin-left: 30px;
+    background-color: black;
+    padding: 10px 30px;
 
 }
 
@@ -60,6 +79,7 @@ h1 {
     margin-top: 25px;
     margin-left: 30px;
     border-radius: 10px;
+
 
 }
 
@@ -81,4 +101,63 @@ h1 {
     border-radius: 10px;
     text-align: center;
 
+}
+
+.blog-type {
+    height: 980px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100px;
+    height: 362px;
+    position: absolute;
+    left: 476px;
+    top: 670px;
+    grid-gap: 15px;
+    margin-left: 2px;
+}
+
+.blog img {
+    width: 240px;
+}
+
+.button {
+    background-color: pink;
+    text-decoration: none;
+    width: 25%;
+    padding: 2px 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+
+}
+
+.icon {
+    color: rgb(65, 62, 62);
+    padding-bottom: 20px;
+}
+
+#footer-sec {
+    color: aliceblue;
+
+
+}
+
+.footer-part {
+    color: aqua;
+    background-color: #000428;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.footer-gap {
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+    margin-left: 570px;
 }
